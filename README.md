@@ -31,3 +31,6 @@ PROXY_URL = "[https://your-worker-url.workers.dev](https://your-worker-url.worke
 
 custom_server = TelegramAPIServer.from_base(PROXY_URL)
 bot = Bot(token="YOUR_TOKEN", server=custom_server)
+```
+You can also see where this is [used in practice](https://github.com/KirillxC/metadata-bot)
+
